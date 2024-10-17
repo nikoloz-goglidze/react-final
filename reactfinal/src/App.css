@@ -1,0 +1,20 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+.profile{
+display: flex;
+}
+.img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  background-color: gray;
+  
+}
+.profile-bio{
+  display: flex;
+  flex-direction: column;
+  padding-left: 40px;
+}
+
