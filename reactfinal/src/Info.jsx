@@ -1,9 +1,10 @@
-function Info([icon, text]) {
+function Info({ icon, text }) {
   return (
     <div className="info">
       <span>
-        <div className="icon">{icon}</div>
-        <p>text{text}</p>
+        <span class="material-symbols-outlined">{icon}
+        </span>
+        <p>{text}</p>
       </span>
     </div>
   );

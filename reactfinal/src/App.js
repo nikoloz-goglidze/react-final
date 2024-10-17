@@ -1,11 +1,13 @@
 import "./App.css";
 import Profile from "./Profile";
-import Info from "./Info";
+import Information from "./Information";
 function App() {
   return (
     <div className="container">
-      <Profile />
-      <Info icon="" text="" />
+      <div className="left-div">
+        <Profile />
+        <Information />
+      </div>
     </div>
   );
 }
